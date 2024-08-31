@@ -1,0 +1,39 @@
+{
+    "name": "webexmachina/contao-cities-db-bundle",
+    "description": "Cities DB worldwide for Contao Open Source CMS",
+     "keywords": ["database", "city", "cities", "standalone", "webexmachina", "contao"],
+    "type": "contao-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Web ex Machina",
+            "homepage": "https://www.webexmachina.fr",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "website":"https://www.webexmachina.fr/",
+        "issues":"https://github.com/web-ex-machina/contao-cities-db-bundle/issues",
+        "source":"https://github.com/web-ex-machina/contao-cities-db-bundle"
+    },
+    "require": {
+        "contao/core-bundle": "^4.4",
+    },
+    "autoload":{
+        "psr-4": {
+            "WEM\\OffersBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao/"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config/",
+            "src/Resources/contao/dca/",
+            "src/Resources/contao/languages/",
+            "src/Resources/contao/templates/"
+        ]
+    },
+    "extra":{
+        "contao-manager-plugin": "WEM\\CitiesDbBundle\\ContaoManager\\Plugin"
+    }
+}

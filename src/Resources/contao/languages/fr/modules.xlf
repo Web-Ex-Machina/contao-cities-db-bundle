@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/wem-cities-db/languages/en/modules.php" source-language="en" target-language="fr">
+    <body>
+			<trans-unit id="MOD.wem-cities-db.0">
+				<source>Cities</source>
+				<target>Villes</target>
+			</trans-unit>
+			<trans-unit id="MOD.wem-cities-db.1">
+				<source>Manage cities</source>
+				<target>Gérer les villes</target>
+			</trans-unit>
+    </body>
+  </file>
+</xliff>
