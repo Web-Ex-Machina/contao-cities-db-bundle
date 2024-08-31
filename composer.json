@@ -17,11 +17,11 @@
         "source":"https://github.com/web-ex-machina/contao-cities-db-bundle"
     },
     "require": {
-        "contao/core-bundle": "^4.4",
+        "contao/core-bundle": "^4.4"
     },
     "autoload":{
         "psr-4": {
-            "WEM\\OffersBundle\\": "src/"
+            "WEM\\CitiesDbBundle\\": "src/"
         },
         "classmap": [
             "src/Resources/contao/"
